@@ -2,9 +2,9 @@ import React from "react";
 import './Rightbar.css';
 import fibo from "../images/fibo.jpeg";
 import talk from "../images/talk.jpeg";
-import academy from "../images/academy.png";
-import youtube from "../images/youtube.png";
-import js from "../images/js.png";
+import academy from "../images/283001501_5296884957040473_4196822930671942404_n.jpeg";
+import youtube from "../images/279303394_5249225528473083_743898152449933928_n.jpeg";
+import js from "../images/279303394_5249225528473083_743898152449933928_n.jpeg";
 import { Input } from "web3uikit";
 
 
@@ -12,28 +12,23 @@ const Rightbar = () => {
   const trends = [
     {
       img: fibo,
-      text: "Learn how to build a Web3 FPS game using unity...",
+      text: "ภายใต้สโลแกน “A cradle of future leaders in robotics” ฟีโบ้ ก่อตั้งโดย รศ. ดร.ชิต เหล่าวัฒนา ในปี 2538 ",
       link: "https://www.facebook.com/fibokmutt/",
     },
     {
       img: talk,
-      text: "The fisrt Moralis Project! Let's Netflix and chill...",
+      text: "พบกับ showcase series กับ class project ในรายวิชา Foundation of Robotics จากปัญหาจริงในอุตสาหกรรม",
       link: "https://www.facebook.com/fibokmutt/photos/a.151889104873443/5294861173909518/",
     },
     {
       img: academy,
-      text: "Master DeFi in 2022. Start  at the Moralis Academy...",
-      link: "https://academy.moralis.io/courses/defi-101",
+      text: "หลักสูตรปริญญาโท-เอก ทางด้านวิทยาการหุ่นยนต์และระบบอัตโนมัติ",
+      link: "https://www.facebook.com/fibokmutt/photos/a.151889104873443/5296884977040471",
     },
     {
       img: js,
-      text: "Become a Web3 Developer with just simple JS...",
-      link: "https://academy.moralis.io/all-courses",
-    },
-    {
-      img: youtube,
-      text: "Best youtube channel to learn about Web3...",
-      link: "https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw",
+      text: "METAVERSE FOR SMART FACTORY CONTEST 2022 🎉",
+      link: "https://www.facebook.com/fibokmutt/photos/a.151889104873443/5249225538473082/",
     },
   ];
 
@@ -41,14 +36,14 @@ const Rightbar = () => {
     <>
     <div className="rightbarContent">
       <Input
-      label="Search Twitter"
-      name="Search Twitter"
+      label="Search Posts"
+      name="Search Posts"
       prefixIcon="search"
       labelBgColor="#141d26"
       >
       </Input>
     <div className="trends">
-      News
+      Fibo News
       {trends.map((e)=>{
         return(
         <>

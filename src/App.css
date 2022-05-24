@@ -20,6 +20,32 @@
   color: white;
   height: 100vh;
 }
+.Lukkid {
+  display: flex;
+  justify-content: start;
+  gap: 14px;
+  margin-top: 20px;
+  align-items: center;
+  font-weight: 600;
+  font-size: 30px;
+  padding:10px;
+  border-radius: 1000px;
+  color: white !important;
+  text-decoration: none !important;
+}
+.Lukkid1 {
+  display: flex;
+  justify-content: start;
+  gap: 14px;
+  margin-top: 10;
+  align-items: center;
+  font-weight: 400;
+  font-size: 30px;
+  padding:1px;
+  border-radius: 100;
+  color: white !important;
+  text-decoration: none !important;
+}
 
 .mainWindow {
   width: 800px;
@@ -63,7 +89,8 @@ a:-webkit-any-link {
 }
 
 .logout:hover {
-  color:gray;
+  
+  color:rgb(255, 104, 104);
   font-weight: bold;
   cursor: pointer;
 }
